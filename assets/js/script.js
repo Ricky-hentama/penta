@@ -1,119 +1,5 @@
 $(document).ready(function () {
 
-  // tombol branding
-  $(".tombol-branding").click(function () {
-    $(this).addClass("tombol-active").siblings().removeClass("tombol-active");
-  });
-  // hover faq
-  $(".panel-heading").mouseenter(function () {
-    $(this).children([".collapsed"]).css("font-weight", "bold");
-  });
-  // mouseleave faq
-  $(".panel-heading").mouseleave(function () {
-    $(this).children([".collapsed"]).css("font-weight", "normal");
-  });
-
-  // branding section
-
-  $(".tombol-branding").click(function (e) {
-    $(this).addClass("tombol-active").siblings().removeClass("tombol-active");
-
-    if (e.target.dataset.target == " faq-all") {
-      $(".faq-all")
-        .addClass("faq-show")
-        .siblings()
-        .removeClass("faq-show");
-    }
-    if (e.target.dataset.target == "branding-mobil") {
-      $(".faq-branding-mobil")
-        .addClass("faq-show")
-        .siblings()
-        .removeClass("faq-show");
-    }
-    if (e.target.dataset.target == "branding-kantor") {
-      $(".faq-branding-kantor")
-        .addClass("faq-show")
-        .siblings()
-        .removeClass("faq-show");
-    }
-    if (e.target.dataset.target == "cetak-sticker") {
-      $(".faq-cetak-sticker")
-        .addClass("faq-show")
-        .siblings()
-        .removeClass("faq-show");
-    }
-    if (e.target.dataset.target == "cutting-sticker") {
-      $(".faq-cutting-sticker")
-        .addClass("faq-show")
-        .siblings()
-        .removeClass("faq-show");
-    }
-  });
-
-  // kontak spiner
-  $("#loadspin").hide();
-  // trigger disable button
-  $(".text-kontak").click(function () {
-    $(".text-kirim").text("Mengirim");
-    $("#loadspin").show();
-    $(".tombol-kirim").attr("disabled", "0");
-  });
-
-  //====================================================================================================================================================================================================//
-  // scroll in animation
-  $(window).scroll(function () {
-    let wScroll = $(this).scrollTop();
-    //under 200
-    if (wScroll > 700) {
-      // branding img
-      $(".branding-img").each(function (i) {
-        setTimeout(function () {
-          $(".branding-img").eq(i).addClass("element-show");
-        }, 200 * (i + 1));
-      });
-      // branding text home
-      $(".text-branding").addClass("element-show");
-
-      // halaman aboutme section 2
-      $(".img-kanan-2").addClass("element-show");
-      $(".text-kiri-2").addClass("element-show");
-    }
-    // under 350
-    if (wScroll > 350) {
-      // proses kerja title
-      $(".proses-title").addClass("element-show");
-    }
-
-    // under 650
-    if (wScroll > 650) {
-      $(".proses-img").each(function (i) {
-        setTimeout(function () {
-          $(".proses-img").eq(i).addClass("element-show");
-        }, 200 * (i + 1));
-      });
-      // tombol branding lanjut index
-      $(".branding-lanjut").addClass("element-show");
-      // halaman branding section 3
-      $(".text-kanan-3").addClass("element-show");
-      $(".img-kiri-3").addClass("element-show");
-    }
-    // under 950
-    if (wScroll > 1250) {
-      // judul last project
-      $(".judul-last-project").addClass("element-show");
-      //deskripsi
-      $(".deskripsi-last-project").addClass("element-show");
-    }
-  });
-  // halaman aboutme section 1
-  $(window).on("load", function (e) {
-    console.log(e.target.body)
-    $(".img-kiri-1").addClass("element-show");
-    $(".text-kanan-1").addClass("element-show");
-    $(".judul-produk").addClass("element-show");
-  });
-
-  //==================================================================================================================================================================================================//
   // chat button
   const wwsWidget = {
     popup: jQuery(".wws-popup"),
@@ -234,5 +120,10 @@ $(document).ready(function () {
       $("nav").addClass("nav-show");
     }
     position = scroll;
+  });
+
+  // pop up under construct
+  $(document).ready(function () {
+    $("#myModal").modal('show');
   });
 });
