@@ -13,6 +13,10 @@ nav {
   margin: 0px 13px;
 }
 
+.navbar-brand {
+  width: 60px;
+}
+
 /* animasi hover nav */
 .nav-item a {
   position: relative;
@@ -353,6 +357,10 @@ footer a {
 @media (max-width: 767px) {
   .isi-footer {
     padding-left: 18%;
+  }
+
+  .navbar-brand {
+    width: 30px;
   }
 }
 

@@ -53,10 +53,6 @@ a {
 
 section {
   margin-top: 10%;
-
-
-
-
 }
 
 .bg-img-1 {
@@ -168,4 +164,12 @@ section {
 
 .team .member:hover .social {
   opacity: 1;
+}
+
+/*  */
+
+@media (max-width: 600px) {
+  .section-satu {
+    margin-top: 20%;
+  }
 }
