@@ -85,12 +85,14 @@ section {
 
 .deskripsi-satu {
   margin-top: 30%;
+
 }
 
 /* section 2 */
 .section-dua {
-  background: rgb(240, 240, 240, 0.7);
-
+  background: rgba(240, 240, 240, 0.7);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 1) 3%, rgba(240, 240, 240, 0.7) 30%);
+  padding-bottom: 5%;
 }
 
 /*--------------------------------------------------------------
