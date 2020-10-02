@@ -14,12 +14,12 @@ nav {
 }
 
 .navbar-brand {
-  width: 60px;
+  width: 30px;
 }
 
-@media (max-width: 767px) {
+@media (min-width: 767px) {
   .navbar-brand {
-    width: 30px;
+    width: 60px;
   }
 }
 
