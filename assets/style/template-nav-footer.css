@@ -17,6 +17,12 @@ nav {
   width: 60px;
 }
 
+@media (max-width: 767px) {
+  .navbar-brand {
+    width: 30px;
+  }
+}
+
 /* animasi hover nav */
 .nav-item a {
   position: relative;
@@ -360,124 +366,125 @@ footer a {
   }
 
 
+}
 
-  @media (max-width: 450px) {
-    .isi-footer {
-      padding-left: 17%;
-    }
-
-    footer a {
-      text-align: center;
-    }
+@media (max-width: 450px) {
+  .isi-footer {
+    padding-left: 17%;
   }
 
-  @media (max-width: 360px) {
-    .isi-footer {
-      padding-left: 15%;
-    }
-  }
-
-  /* chat  button*/
-  .chat-admin,
-  .chat-whatsapp {
-    cursor: pointer;
-    margin-top: 10px;
-    height: 36px;
-    width: 150px;
-    background-color: white;
-    display: block;
-    margin: 10px auto;
-    border-radius: 10px;
-    color: grey;
-    font-size: 15px;
-    line-height: 36px;
-    border: 1px rgb(212, 212, 212) solid;
-    box-shadow: 0px 2px #b1afaf;
-  }
-
-  /* body chat */
-
-  .wws--bg-color {
-    background-color: #22c15e
-  }
-
-  .wws--text-color {
-    color: #fff
-  }
-
-  .wws-popup__open-btn {
-    padding: 8px 15px;
-    font-size: 14px;
-    border-radius: 12px;
-    display: inline-block;
-    /* margin-top: 14px; */
-    cursor: pointer
-  }
-
-  .wws-popup-container--position {
-    left: 12px;
-    bottom: 12px
-  }
-
-  .wws-popup__open-btn {
-    float: left;
-
-  }
-
-  .wws-gradient--position {
-    bottom: 0;
-    right: 0;
-    background: radial-gradient(ellipse at bottom right, rgba(29, 39, 54, .2) 0, rgba(29, 39, 54, 0) 72%)
-  }
-
-  .wws-shadow {
-    box-shadow: 0 0 50px rgba(0, 0, 0, .1)
-  }
-
-  .wws-popup__open-btn>i,
-  .wws-popup__open-btn>span {
-    vertical-align: middle
-  }
-
-  .wws-popup-container * {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box
-  }
-
-  .wws-popup-container {
-    width: auto;
-    position: fixed;
-    z-index: 9999999
-  }
-
-  .wws-popup {
-    display: none;
-    width: 200px;
-
-  }
-
-  .wws-popup__close-btn {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    float: right;
+  footer a {
     text-align: center;
-    vertical-align: middle;
-    line-height: 19px;
-    cursor: pointer;
-    transform: translate(-25px, -30px);
-    font-size: 13px;
-    box-shadow: 0px 2px #b1afaf;
   }
+}
+
+@media (max-width: 360px) {
+  .isi-footer {
+    padding-left: 15%;
+  }
+}
+
+/* chat  button*/
+.chat-admin,
+.chat-whatsapp {
+  cursor: pointer;
+  margin-top: 10px;
+  height: 36px;
+  width: 150px;
+  background-color: white;
+  display: block;
+  margin: 10px auto;
+  border-radius: 10px;
+  color: grey;
+  font-size: 15px;
+  line-height: 36px;
+  border: 1px rgb(212, 212, 212) solid;
+  box-shadow: 0px 2px #b1afaf;
+}
+
+/* body chat */
+
+.wws--bg-color {
+  background-color: #22c15e
+}
+
+.wws--text-color {
+  color: #fff
+}
+
+.wws-popup__open-btn {
+  padding: 8px 15px;
+  font-size: 14px;
+  border-radius: 12px;
+  display: inline-block;
+  /* margin-top: 14px; */
+  cursor: pointer
+}
+
+.wws-popup-container--position {
+  left: 12px;
+  bottom: 12px
+}
+
+.wws-popup__open-btn {
+  float: left;
+
+}
+
+.wws-gradient--position {
+  bottom: 0;
+  right: 0;
+  background: radial-gradient(ellipse at bottom right, rgba(29, 39, 54, .2) 0, rgba(29, 39, 54, 0) 72%)
+}
+
+.wws-shadow {
+  box-shadow: 0 0 50px rgba(0, 0, 0, .1)
+}
+
+.wws-popup__open-btn>i,
+.wws-popup__open-btn>span {
+  vertical-align: middle
+}
+
+.wws-popup-container * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box
+}
+
+.wws-popup-container {
+  width: auto;
+  position: fixed;
+  z-index: 9999999
+}
+
+.wws-popup {
+  display: none;
+  width: 200px;
+
+}
+
+.wws-popup__close-btn {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  float: right;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 19px;
+  cursor: pointer;
+  transform: translate(-25px, -30px);
+  font-size: 13px;
+  box-shadow: 0px 2px #b1afaf;
+}
 
 
-  .wws-popup__input::-webkit-input-placeholder {
-    color: #888fbb !important
-  }
+.wws-popup__input::-webkit-input-placeholder {
+  color: #888fbb !important
+}
 
-  .crisp-x94m06,
-  .crisp-ws3gf1,
-  .crisp-kquevr {
-    visibility: hidden;
-    display: none;
-  }
+.crisp-x94m06,
+.crisp-ws3gf1,
+.crisp-kquevr {
+  visibility: hidden;
+  display: none;
+}
