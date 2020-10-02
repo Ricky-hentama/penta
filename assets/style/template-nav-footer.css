@@ -13,11 +13,7 @@ nav {
   margin: 0px 13px;
 }
 
-.navbar-brand {
-  width: 30px;
-}
-
-@media (min-width: 767px) {
+@media (min-width: 760px) {
   .navbar-brand {
     width: 60px;
   }
