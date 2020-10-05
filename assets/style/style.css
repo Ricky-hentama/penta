@@ -166,6 +166,16 @@ section {
   opacity: 1;
 }
 
+/* sectrion 2 end */
+
+/* section 3 */
+.section-tiga {
+  margin-top: 0;
+  background-color: #ededfd;
+}
+
+/* section 3 end */
+
 /*  */
 
 @media (max-width: 600px) {
