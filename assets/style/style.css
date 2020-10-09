@@ -51,15 +51,9 @@ a {
   max-width: 1140px;
 }
 
-section {
-  margin-top: 10%;
-}
 
-.bg-img-1 {
-  padding-bottom: 300px;
-  background: url(../img/bg-12.svg) no-repeat;
-  background-size: cover;
-}
+
+
 
 /* index */
 .deskripsi {
@@ -75,8 +69,16 @@ section {
 
 .title-utama {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 35px;
+  font-size: 55px;
   font-weight: bolder;
+}
+
+/* section satu */
+.section-satu {
+  padding-top: 15%;
+  padding-bottom: 10%;
+  background-color: #8f8fec;
+  margin-top: 0;
 }
 
 .deskripsi-satu {
@@ -179,56 +181,5 @@ section {
 
 /*  */
 
-@media (max-width: 600px) {
-  .section-satu {
-    margin-top: 20%;
-  }
-}
 
 
-/* ---- reset ---- */
-
-body {
-  margin: 0;
-  font: normal 75% Arial, Helvetica, sans-serif;
-}
-
-canvas {
-  display: block;
-  vertical-align: bottom;
-}
-
-/* ---- particles.js container ---- */
-
-#particles-js {
-
-  width: 100%;
-  height: 100%;
-  background-color: #8f8fec;
-
-  background-image: url("");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%;
-}
-
-/* ---- stats.js ---- */
-
-
-.js-count-particles {
-  font-size: 1.1em;
-}
-
-#stats,
-.count-particles {
-  -webkit-user-select: none;
-}
-
-#stats {
-  border-radius: 3px 3px 0 0;
-  overflow: hidden;
-}
-
-.count-particles {
-  border-radius: 0 0 3px 3px;
-}
