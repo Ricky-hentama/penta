@@ -488,3 +488,56 @@
     height: 0%;
   }
 }
+
+
+
+/*animasi typed*/
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.typed-cursor {
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+.title-utama span{
+    background: #01D3EB;
+  background: -moz-linear-gradient(45deg, #01D3EB 0%, #0067F4 100%);
+  background: -webkit-linear-gradient(45deg, #01D3EB 0%, #0067F4 100%);
+  background: linear-gradient(45deg, #01D3EB 0%, #0067F4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-bottom: 3px solid #01D3EB;
+}

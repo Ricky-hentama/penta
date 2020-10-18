@@ -131,4 +131,26 @@ $(document).ready(function () {
       $(".loader-wrapper").fadeOut("slow");
     }, 1500);
   });
+
+  // typed animation
+  var lang = { 
+   typed: [
+          "Marketers.",
+          "Influencers.",
+          "Youtubers.",
+          "Artists.",
+          "Corporate.",
+          "Everyone.",
+        ]};
+          if($(".forPeople").length > 0) {
+    var typed = new Typed(".forPeople", {
+      strings: lang.typed,
+      smartBackspace: true,
+      startDelay: 1500,
+      typeSpeed: 100,
+      backSpeed: 50,
+      backDelay: 1000,
+      loop: true
+    });  
+  }   
 });
