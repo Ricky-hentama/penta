@@ -557,3 +557,18 @@
     transform: translate(0, -0px);
   }
 }
+
+/*card show animation*/
+.anggota {
+ 
+  transform: translate(0, 80px);
+  opacity: 0;
+  transition: 0.7s;
+}
+
+.element-show {
+
+  transform: translate(0, 0);
+  opacity: 1;
+  display: inline-table;
+}

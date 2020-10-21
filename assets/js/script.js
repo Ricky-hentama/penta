@@ -152,5 +152,18 @@ $(document).ready(function () {
       backDelay: 1000,
       loop: true
     });  
-  }   
+  } 
+
+  //srolll in animation
+  $(window).scroll(function () {
+    let wScroll = $(this).scrollTop();
+     if (wScroll > 1250) {
+        $(".anggota").each(function (i) {
+          setTimeout(function () {
+            $(".anggota").eq(i).addClass("element-show");
+          }, 500 * (i + 1));
+        });
+      } 
+  });
+
 });
