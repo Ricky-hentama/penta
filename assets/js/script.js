@@ -157,7 +157,7 @@ $(document).ready(function () {
   //srolll in animation
   $(window).scroll(function () {
     let wScroll = $(this).scrollTop();
-     if (wScroll > 1250) {
+     if (wScroll > 3050) {
         $(".anggota").each(function (i) {
           setTimeout(function () {
             $(".anggota").eq(i).addClass("element-show");
@@ -165,5 +165,9 @@ $(document).ready(function () {
         });
       } 
   });
+  // aos
+
+   AOS.init(); 
+
 
 });
