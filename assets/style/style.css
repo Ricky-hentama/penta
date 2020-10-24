@@ -203,8 +203,49 @@ a {
 /* section 4 (dua)*/
 .kotak-fitur{
   margin: 10px;
+}
+
+.kf-satu .far{
+color: #8BC6EC;;
+}
+.kf-dua .fas{
+color: #f7ab95;
+}
+.kf-tiga .fas{
+color: #f2a4ea;;
+}
+.kf-empat .fas{
+color: #6aded6;;
+}
+
+
+.kf-satu:hover{
+color: #fff;
+background-color: #8BC6EC;
+background-image: linear-gradient(112deg, #8BC6EC 0%, #9599E2 100%);
+}
+.kf-dua:hover{
+  color: #fff;
+  background-color: #f7ab95;
+  background-image: linear-gradient(112deg, #f7ab95 0%, #cf5144 100%);
+}
+.kf-tiga:hover{
+
+  color: #fff;
+  background-color: #f2a4ea;
+  background-image: linear-gradient(112deg, #f2a4ea 0%, #c927c9 100%);
+}
+.kf-empat:hover{
+  color: #fff;
+  background-color: #6aded6;
+  background-image: linear-gradient(90deg, #6aded6 0%, #30b0cb 100%);
 
 }
+.kf-satu:hover .far{ color: white;}
+.kf-dua:hover .fas{color: white;}
+.kf-tiga:hover .fas{color: white;}
+.kf-empat:hover .fas{ color: white;}
+
 .card-body{
   margin: 3%;
   border-radius: 10px;
