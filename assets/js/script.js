@@ -135,12 +135,12 @@ $(document).ready(function () {
   // typed animation
   var lang = { 
    typed: [
-          "Marketers.",
-          "Influencers.",
-          "Youtubers.",
-          "Artists.",
-          "Corporate.",
-          "Everyone.",
+          "agus.",
+          "hadi.",
+          "yanto.",
+          "samsu.",
+          "dirun.",
+          "yono.",
         ]};
           if($(".forPeople").length > 0) {
     var typed = new Typed(".forPeople", {
