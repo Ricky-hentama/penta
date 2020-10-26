@@ -154,7 +154,7 @@ $(document).ready(function () {
     });  
   } 
 
-  //srolll in animation
+  //srolll in animation team
   $(window).scroll(function () {
     let wScroll = $(this).scrollTop();
      if (wScroll > 3050) {
@@ -169,5 +169,18 @@ $(document).ready(function () {
 
    AOS.init(); 
 
+    /* Card Slider - Swiper */
+	var cardSlider = new Swiper('.card-slider', {
+		autoplay: {
+            delay: 3000,
+            disableOnInteraction: false
+		},
+        loop: true,
+        navigation: {
+			nextEl: '.swiper-button-prev',
+			prevEl: '.swiper-button-next'
+		}
+    });
 
+ 
 });

@@ -1,4 +1,12 @@
+html {
+  scroll-behavior: smooth;
+   /* overflow:   scroll; */
+}
 
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
 /* font */
 @font-face {
   font-family: "Maison-Neue-Bold";
@@ -62,7 +70,7 @@ a {
 
 .title-utama {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bolder;
 }
 
@@ -264,7 +272,79 @@ background-image: linear-gradient(112deg, #8BC6EC 0%, #9599E2 100%);
 
 /* section 5 */
 .section-lima{
-  background-color:#242f3f ;
+  background-color:#242f3f ;}
+
+  .slider-2 {
+	padding-top: 7.5rem;
+	padding-bottom: 7rem;
+  background-size: cover; 
+ 
+}
+
+.slider-2 .image-container {
+	margin-bottom: 4rem;
+}
+
+
+
+.slider-2 .slider-container {
+	position: relative;
+}
+
+.slider-2 .swiper-container {
+	position: static;
+	width: 90%;
+	text-align: center;
+}
+
+.slider-2 .swiper-button-prev:focus,
+.slider-2 .swiper-button-next:focus {
+	/* even if you can't see it chrome you can see it on mobile device */
+	outline: none;
+}
+
+.slider-2 .swiper-button-prev {
+	left: -0.5rem;
+	
+	background-size: 1.125rem 1.75rem;
+}
+
+.slider-2 .swiper-button-next {
+	right: -0.5rem;
+
+	background-size: 1.125rem 1.75rem;
+}
+
+.slider-2 .card {
+	position: relative;
+	border: none;
+	background-color: transparent;
+}
+
+.slider-2 .card-image {
+	width: 7rem;
+	height: 7rem;
+	margin-right: auto;
+	margin-bottom: 0.25rem;
+	margin-left: auto;
+	border-radius: 50%;
+}
+
+.slider-2 .card-body {
+	padding-bottom: 0;
+}
+
+.slider-2 .testimonial-author {
+  margin-bottom: 0;
+  color: white;
+}
+
+
+.swiper-slide .card{
+  background-color: transparent;
+}
+.testimonial-text{
+  color: white;
 }
 /* section 5 end */
 
