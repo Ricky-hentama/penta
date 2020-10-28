@@ -278,32 +278,30 @@ nav {
 
 
 /* footer */
-foot-logo {
-  width: 200px;
+
+
+@keyframes ro {
+  0%{
+    transform: rotate(0);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
 }
 
-h5 {
-  text-align: left;
-  font: Medium 18px/24px Roboto;
-  letter-spacing: 0.9px;
-  color: #ffffff;
-  opacity: 1;
+footer a:hover  i{
+  animation: ro 2s linear infinite;
 }
-
 a:hover {
   color: #0e78c4;
   text-decoration: none;
 }
 
 footer {
+  box-shadow: 0px 11px 0px 0px rgba(36,47,63,1);
   background: #242f3f 0% 0% no-repeat padding-box;
 }
 
-footer .row {
-  max-width: 1300px;
-  margin: 0px auto;
-  padding: 40px 0px;
-}
 
 footer a {
   text-align: left;
@@ -319,10 +317,7 @@ footer a {
 }
 
 @media (max-width: 1090px) {
-  footer h5 {
-    font-size: 18px;
-    letter-spacing: 0.6px;
-  }
+  
 
   footer a {
     font-size: 12px;
@@ -334,10 +329,7 @@ footer a {
   footer h5 {
     font-size: 16px;
     letter-spacing: 0.3px;
-  }
-
-  footer a {
-    font-size: 10px;
+   }
   }
 
   footer {
@@ -351,27 +343,12 @@ footer a {
   }
 }
 
-@media (max-width: 767px) {
-  .isi-footer {
-    padding-left: 18%;
-  }
-
-
-}
 
 @media (max-width: 450px) {
-  .isi-footer {
-    padding-left: 17%;
-  }
+ 
 
   footer a {
     text-align: center;
-  }
-}
-
-@media (max-width: 360px) {
-  .isi-footer {
-    padding-left: 15%;
   }
 }
 
