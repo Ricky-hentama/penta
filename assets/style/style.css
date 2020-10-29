@@ -92,6 +92,7 @@ a {
 
 /* section 2 */
 .section-dua {
+  overflow-y: hidden ;
   background: #f0f0f0b3;
   background: linear-gradient(
     0deg,
