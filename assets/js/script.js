@@ -135,12 +135,12 @@ $(document).ready(function () {
   // typed animation
   var lang = { 
    typed: [
-          "agus.",
-          "hadi.",
-          "yanto.",
-          "samsu.",
-          "dirun.",
-          "yono.",
+          "Web Development.",
+          "Web Testing.",
+          "Web Design.",
+          "Web Redesign.",
+          "SEO Service.",
+          "hehe bambang.",
         ]};
           if($(".forPeople").length > 0) {
     var typed = new Typed(".forPeople", {
@@ -157,7 +157,7 @@ $(document).ready(function () {
   //srolll in animation team
   $(window).scroll(function () {
     let wScroll = $(this).scrollTop();
-     if (wScroll > 3050) {
+     if (wScroll > 3450) {
         $(".anggota").each(function (i) {
           setTimeout(function () {
             $(".anggota").eq(i).addClass("element-show");

@@ -80,7 +80,7 @@ a {
 /* section satu */
 .section-satu {
   padding-top: 15%;
-  padding-bottom: 10%;
+  padding-bottom: 8%;
   /* background-color: #8f8fec; */
   background-color: #2d394d;
   margin-top: 0;
@@ -218,6 +218,8 @@ a {
 /* section 4 (dua)*/
 .kotak-fitur{
   margin: 10px;
+
+  
 }
 
 .kf-satu .far{
@@ -226,7 +228,7 @@ color: #8BC6EC;;
 .kf-dua .fas{
 color: #f7ab95;
 }
-.kf-tiga .fas{
+.kf-tiga .far{
 color: #f2a4ea;;
 }
 .kf-empat .fas{
@@ -258,10 +260,11 @@ background-image: linear-gradient(112deg, #8BC6EC 0%, #9599E2 100%);
 }
 .kf-satu:hover .far{ color: white;}
 .kf-dua:hover .fas{color: white;}
-.kf-tiga:hover .fas{color: white;}
+.kf-tiga:hover .far{color: white;}
 .kf-empat:hover .fas{ color: white;}
 
 .card-body{
+ 
   margin: 3%;
   border-radius: 10px;
 }
@@ -326,12 +329,11 @@ background-image: linear-gradient(112deg, #8BC6EC 0%, #9599E2 100%);
 }
 
 .slider-2 .card-image {
-	width: 7rem;
 	height: 7rem;
 	margin-right: auto;
 	margin-bottom: 0.25rem;
 	margin-left: auto;
-	border-radius: 50%;
+
 }
 
 .slider-2 .card-body {
@@ -357,6 +359,9 @@ background-image: linear-gradient(112deg, #8BC6EC 0%, #9599E2 100%);
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.section-enam{
+  overflow-y: hidden;
+}
 .portfolio-item img{
  border-radius: 10px;
 }
