@@ -565,3 +565,29 @@ input.search-submit {
   visibility: hidden;
   display: none;
 }
+
+
+
+/* hover footer icon */
+
+
+.fb-ic:hover i{
+color: #3b5998;
+}
+.tw-ic:hover i{
+  color: #1DA1F2;
+} 
+.gplus-ic:hover i{
+  color: #DD4B39;
+} 
+.li-ic:hover i{
+  color: #0072b1;
+}
+.ins-ic:hover i{
+  color: #e744b3;
+}
+.pin-ic:hover i{
+  color: 	#E60023;
+  background-color: white;
+  border-radius: 50%;
+}

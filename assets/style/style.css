@@ -84,6 +84,10 @@ a {
   /* background-color: #8f8fec; */
   background-color: #2d394d;
   margin-top: 0;
+  
+}
+.br-hidden{
+  display: none;
 }
 
 .deskripsi-satu {
@@ -554,5 +558,8 @@ background-image: linear-gradient(112deg, #8BC6EC 0%, #9599E2 100%);
     position: static;
     margin-top: 30px;
   }
+  .br-hidden{
+  display: unset;
+}
 }
 /* section 6 end */

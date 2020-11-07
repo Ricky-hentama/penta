@@ -135,12 +135,12 @@ $(document).ready(function () {
   // typed animation
   var lang = { 
    typed: [
-          "Web Development.",
-          "Web Testing.",
-          "Web Design.",
-          "Web Redesign.",
-          "SEO Service.",
-          "hehe bambang.",
+          "Development.",
+          "Testing.",
+          "Design.",
+          "Redesign.",
+          "SEO.",
+          "bambang.",
         ]};
           if($(".forPeople").length > 0) {
     var typed = new Typed(".forPeople", {
