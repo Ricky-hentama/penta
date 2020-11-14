@@ -361,6 +361,8 @@ label {
   align-self: center;
   margin-bottom: 0;
   width: 55%;
+  background-color: white;
+
 }
 
 input.search-field {
@@ -372,8 +374,16 @@ input.search-field {
   height: 51px;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
+  border: none !important;
+  border-color: transparent !important;
+  border: 0px solid;
 }
-
+::-webkit-input-placeholder {
+   text-align: center;
+}
+input.search-field:focus {
+    outline-width: 0;
+}
 input.search-submit {
   height: 51px;
   margin: 0;
@@ -382,7 +392,7 @@ input.search-submit {
   border-bottom-left-radius: 0;
   border-top-right-radius: 0.25rem;
   border-bottom-right-radius: 0.25rem;
- 
+ width: 80%;
   font-size: 1rem;
 }
 
